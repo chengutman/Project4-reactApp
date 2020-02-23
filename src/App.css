@@ -1,0 +1,95 @@
+
+body{
+  background-color:#FD5842;
+}
+.title{ 
+  color: #FFFFFF;
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  font-Size: 26px;
+}
+.container{
+  width: 87.5%;
+  height: 77vh;
+  margin-top: 4%;
+  margin-bottom: 36px;
+  margin-left: 6.25%;
+  background: url("https://s3-alpha-sig.figma.com/img/1c7b/5da8/d3053200b6c3ee5668cfa4aa3872bf92?Expires=1583107200&Signature=GmsTThexef4LjZs0GO~BvxGIt7k3Ni5YRfz~ACjJlBtneFlU5TTLqDjZFQMD~iSllzxWma7qS-p0p5tL1d1gUvGFzYxm5vHXC7uLLaGQJW~yqM-KE6S4yv4xvY4mKT8GoXh8g7kX1WGhLLgOsJElUg2tabzolPji82wR6HnphBBhWlNd9HX~oHpSemfykIHJiRbQlMCcgmjFVCOW4Q-WOZkKdcBVwxJDPVu-Hu7s~FTwWhChmR8V6g7jl5JGl80nQKMqYgC-oUJ-YyVH20NbqJyNnaGcdOCwabTksrRqWcDwOINn8w1Emt~ZZ5x~BULRCKr91u2PgfjERGDzbg-7EQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  border: 1px solid #171932;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+}
+.center-image{
+  position: absolute;
+  width: 20%;
+  height: 42vh;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+.firstShadow{
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  bottom: 15%;
+  background: rgba(253, 88, 66, 0.2);
+  border-radius: 10px;
+}
+.secShadow{
+  position: absolute;
+  width: 95%;
+  top: 10%;
+  bottom: 10%;
+  margin-left: 2.5%;
+  background: rgba(253, 88, 66, 0.2);
+  border-radius: 10px;
+}
+.thirdShadow{
+  position: absolute;
+  width: 90%;
+  top: 5%;
+  bottom: 5%;
+  margin-left: 5%;
+  background: rgba(253, 88, 66, 0.2);
+  border-radius: 10px;
+}
+.fourShadow{
+  position: absolute;
+  width: 85%;
+  top: 2.5%;
+  bottom: 2.5%;
+  margin-left: 7.5%;
+  background: rgba(253, 88, 66, 0.2);
+  border-radius: 10px;
+}
+.photo{
+  position: absolute;
+  width: 80%;
+  top: 2.5%;
+  bottom: 2.5%;
+  margin-left:10%;
+  background:url("./photo/eiffel.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  border-radius: 10px;
+}
+.componentsContainer{
+  width: 87.5%;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: space-between;
+}
+.form{
+  width: 100%;
+  margin-left: 5%;
+}
+.listPosition{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
